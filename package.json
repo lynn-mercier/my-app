@@ -10,6 +10,8 @@
   },
   "scripts": {
     "render": "routine-design render ./test/render",
+    "capture": "routine-design capture ./test/render disco-stock-218303 my-app-screenshots",
+    "postinstall": "docker pull lynnmercier/routine-design && routine-design docker build-node-sass",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

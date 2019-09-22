@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 routine-design-output
+auth.json
 
