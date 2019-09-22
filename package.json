@@ -9,6 +9,7 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
+    "render": "routine-design render ./test/render",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "routine-design": "^0.6.5"
   }
 }
