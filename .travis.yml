@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - "11"
+matrix:
+  include:
+    - script:
+      - npm run test:unit
+    - services:
+      - docker
+      script:
+      - npm run test:screenshots
